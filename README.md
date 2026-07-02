@@ -82,8 +82,8 @@
 
 ## 📜Ссылочки
 
-- [Vite](https://astro.build/)
-- [React](https://gsap.com/)
+- [Vite](https://vite.dev/)
+- [React](https://react.dev/)
 - [WeatherAPI](https://www.weatherapi.com/)
 
 ---
