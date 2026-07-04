@@ -29,6 +29,16 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+      - name: Debug environment variables
+        run: |
+          echo "Проверяем переменные окружения"
+          if [ -z "$VITE_WEATHER_API_KEY" ]; then
+            echo "ПЕРЕМЕННАЯ ПУСТАЯ! Секрет не передан."
+          else
+            echo "Переменная существует, длина: ${#VITE_WEATHER_API_KEY} символов"
+          fi
+        env:
+          VITE_WEATHER_API_KEY: ${{ secrets.VITE_WEATHER_API_KEY }}
 
       - name: Build project
         run: pnpm run build

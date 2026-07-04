@@ -1,4 +1,11 @@
 # 🌦️ Weather Widget
+<p align="left">
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+  <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+</p>
 
 Этот проект представляет собой небольшой виджет погоды, написанный на React. Он
 позволяет узнать текущую погоду в любом городе или автоматически определяет ваше
@@ -84,8 +91,8 @@
 
 ## 📜Ссылочки
 
-- [Vite](https://astro.build/)
-- [React](https://gsap.com/)
+- [Vite](https://vite.dev/)
+- [React](https://react.dev/)
 - [WeatherAPI](https://www.weatherapi.com/)
 
 ---
